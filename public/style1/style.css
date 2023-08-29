@@ -183,3 +183,31 @@ a{
     background-color: black;
     padding: 2.8px;
 }
+@media all and (max-width:767px){
+    
+    header{
+        background-color: gray;
+        padding: 30px;
+    }
+
+    hgroup{
+        color: red;
+    }
+    hgroup h1{
+        margin-top: 0;
+    }
+    .content{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+.contacts{
+    margin-top: 10px;
+}
+.contact-value{
+    padding: 3px;
+    margin: 0;
+}
+
+}
