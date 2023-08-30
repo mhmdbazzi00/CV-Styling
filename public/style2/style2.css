@@ -46,6 +46,12 @@ h2{
     padding: 0px 10px 10px;
     line-height: 1.5;
     margin: 0;
+  
+    }
+    .skill span{
+        display: flex;
+        justify-content: space-between;
+        
     }
     section ul{
         margin: 0;
@@ -60,7 +66,7 @@ h2{
 }
 h4{
     margin: 0;
-        color: #008080;
+        color: #008080;gap: 15px
 }
 .skills{
     display: flex;
@@ -78,8 +84,11 @@ h4{
     background-color: #008080;
     margin: 5px 0px;
     width: 70%;
+    
 
+ 
 }
+
 
 .skill[data-skill="5"] span::after{
     content: "\2605 \2605 \2605";
