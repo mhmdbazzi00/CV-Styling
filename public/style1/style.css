@@ -202,12 +202,14 @@ a{
         flex-direction: column;
         gap: 20px;
     }
-.contacts{
+#contact{
     margin-top: 10px;
+    position: static;
 }
 .contact-value{
     padding: 3px;
     margin: 0;
 }
+
 
 }
